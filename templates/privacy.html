@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="terms-section">
+    <div class="terms-container">
+
+        <div class="terms-header">
+            <span class="terms-badge">Last updated: November 2026</span>
+            <h1 class="terms-title">Privacy Policy</h1>
+            <p class="terms-subtitle">How Spendly collects, uses and protects your information</p>
+        </div>
+
+        <div class="terms-card">
+            <div class="terms-block">
+                <h2 class="terms-heading"><span>01</span>Information We Collect</h2>
+                <p class="terms-body">We collect the information you provide when you create an account, such as your name and email address, and the financial records you choose to enter, including expense amounts, categories, dates and notes. We also collect basic technical information, such as browser type and usage logs, to keep the service running reliably. Spendly does not ask for or store your bank account numbers, card details or banking passwords.</p>
+            </div>
+
+            <div class="terms-block">
+                <h2 class="terms-heading"><span>02</span>How We Use Your Data</h2>
+                <p class="terms-body">Your data is used only to provide Spendly's features: storing your expenses, showing summaries and spending insights, and keeping your account secure. We may use your email address to send important account or service notices. We do not sell your personal or financial information, and we do not use it for third-party advertising.</p>
+            </div>
+
+            <div class="terms-block">
+                <h2 class="terms-heading"><span>03</span>Data Security and Protection</h2>
+                <p class="terms-body">We take reasonable technical and organisational measures to protect your information, including encrypted connections, hashed passwords and restricted access to stored data. No online service can guarantee complete security, so we also encourage you to use a strong, unique password and to keep your login details private.</p>
+            </div>
+
+            <div class="terms-block">
+                <h2 class="terms-heading"><span>04</span>Third-Party Services</h2>
+                <p class="terms-body">Spendly may rely on trusted third-party providers, such as hosting, database and email services, to operate the platform. These providers process data only on our behalf and are expected to protect it to standards consistent with this policy. We do not share your financial records with third parties except where required by law.</p>
+            </div>
+
+            <div class="terms-block">
+                <h2 class="terms-heading"><span>05</span>User Rights</h2>
+                <p class="terms-body">You may access, correct or export the information in your account at any time. You may also request that we delete your account and all associated data, after which it will be permanently removed from our active systems. If you have questions about your data or this policy, please contact us through the details provided on the Spendly website.</p>
+            </div>
+        </div>
+
+        <p class="auth-switch">
+            <a href="{{ url_for('landing') }}">Back to home</a>
+        </p>
+
+    </div>
+</section>
+
+{% endblock %}
